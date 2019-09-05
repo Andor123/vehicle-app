@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/salamon/Dokumentumok/vehicle-app2/vehicle-app2.csproj": {}
+  },
+  "projects": {
+    "/home/salamon/Dokumentumok/vehicle-app2/vehicle-app2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/salamon/Dokumentumok/vehicle-app2/vehicle-app2.csproj",
+        "projectName": "vehicle-app2",
+        "projectPath": "/home/salamon/Dokumentumok/vehicle-app2/vehicle-app2.csproj",
+        "packagesPath": "/home/salamon/.nuget/packages/",
+        "outputPath": "/home/salamon/Dokumentumok/vehicle-app2/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/salamon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

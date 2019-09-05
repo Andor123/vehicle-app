@@ -1,0 +1,11 @@
+/home/salamon/Dokumentumok/vehicle-app2/bin/Debug/netcoreapp2.2/vehicle-app2.deps.json
+/home/salamon/Dokumentumok/vehicle-app2/bin/Debug/netcoreapp2.2/vehicle-app2.runtimeconfig.json
+/home/salamon/Dokumentumok/vehicle-app2/bin/Debug/netcoreapp2.2/vehicle-app2.runtimeconfig.dev.json
+/home/salamon/Dokumentumok/vehicle-app2/bin/Debug/netcoreapp2.2/vehicle-app2.dll
+/home/salamon/Dokumentumok/vehicle-app2/bin/Debug/netcoreapp2.2/vehicle-app2.pdb
+/home/salamon/Dokumentumok/vehicle-app2/obj/Debug/netcoreapp2.2/vehicle-app2.csprojAssemblyReference.cache
+/home/salamon/Dokumentumok/vehicle-app2/obj/Debug/netcoreapp2.2/vehicle-app2.csproj.CoreCompileInputs.cache
+/home/salamon/Dokumentumok/vehicle-app2/obj/Debug/netcoreapp2.2/vehicle-app2.AssemblyInfoInputs.cache
+/home/salamon/Dokumentumok/vehicle-app2/obj/Debug/netcoreapp2.2/vehicle-app2.AssemblyInfo.cs
+/home/salamon/Dokumentumok/vehicle-app2/obj/Debug/netcoreapp2.2/vehicle-app2.dll
+/home/salamon/Dokumentumok/vehicle-app2/obj/Debug/netcoreapp2.2/vehicle-app2.pdb

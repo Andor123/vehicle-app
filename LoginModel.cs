@@ -13,5 +13,20 @@ namespace RazorPagesContacts.Pages
         {
             _db = db;
         }
+
+        [BindProperty]
+        public Users Users { get; set; }
+
+        public async Task<IActionResult> OnPostAsync() 
+        {
+            if (!ModelState.IsValid) 
+            {
+                return Page();
+            }
+
+            _db.Users.Add(Users);
+            await _db.SaveChangesAsync();
+            return RedirectToPage("/Vehicles");
+        }
     }
 }

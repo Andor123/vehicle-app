@@ -16,4 +16,9 @@ public class Startup
     {
         app.UseMvc();
     }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+    {
+        optionsBuilder.UseSqlite(@"Data Source=IdentitySample.sqlite;");
+    }
 }

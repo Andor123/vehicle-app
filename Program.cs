@@ -6,7 +6,7 @@ namespace vehicle_app2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            return RedirectToPage("/Index");
         }
     }
 }

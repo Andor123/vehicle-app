@@ -1,3 +1,11 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RazorPagesContacts.Data;
+
+namespace RazorPagesContacts 
+{
 public class Startup 
 {
     public void ConfigureServices(IServiceCollection services) 
@@ -21,4 +29,5 @@ public class Startup
     {
         optionsBuilder.UseSqlite(@"Data Source=IdentitySample.sqlite;");
     }
+}
 }

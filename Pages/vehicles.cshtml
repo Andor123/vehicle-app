@@ -20,9 +20,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td></td>
-                </tr>
+                @foreach (var vehicle in Model.Vehicles)
+                {
+                    <tr>
+                        <td>@vehicle.VehicleId</td>
+                        <td>@vehicle.RegistrationNumber</td>
+                        <td>@vehicle.PrivateCode</td>
+                        <td>@vehicle.TypeOfVehicle</td>
+                        <td>@vehicle.DateStamp</td>
+                    </tr>
+                }
             </tbody>
         </table>
     </body>

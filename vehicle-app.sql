@@ -6,4 +6,4 @@ CREATE TABLE vehicles
     PrivateCode VARCHAR(45),
     TypeOfVehicle VARCHAR(45),
     DateStamp DATETIME
-)
+);

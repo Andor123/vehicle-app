@@ -20,5 +20,12 @@ namespace MvcMovie.Controllers
         {
             return View();
         }
+
+        public IActionResult Edit() 
+        {
+            var model = new Edit { };
+
+            return PartialView("_editpartial", model);
+        }
     }
 }

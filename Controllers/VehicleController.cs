@@ -8,17 +8,21 @@ namespace MvcMovie.Controllers
         //
         // GET: /Index/
 
-        public ActionResult Index() 
+        public IActionResult Index() 
         {
-            return View();
+            var model = new Index { };
+
+            return View("index", model);
         }
 
         //
         // GET: /Vehicles/
 
-        public ActionResult Vehicles() 
+        public IActionResult Vehicles() 
         {
-            return View();
+            var model = new Vehicles { };
+
+            return View("vehicles", model);
         }
 
         public IActionResult Edit() 

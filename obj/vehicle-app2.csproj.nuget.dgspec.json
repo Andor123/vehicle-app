@@ -73,7 +73,7 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -88,6 +88,10 @@
             "System.Threading.Tasks": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "System.Web.Mvc": {
+              "target": "Package",
+              "version": "(, )"
             }
           },
           "imports": [

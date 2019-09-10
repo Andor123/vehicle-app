@@ -9303,7 +9303,7 @@
       "Microsoft.Extensions.DependencyInjection >= 2.2.0",
       "Microsoft.Extensions.Logging >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "System",
+      "System >= 4.1.311.2",
       "System.Text.Encodings.Web >= 4.5.0",
       "System.Threading.Tasks >= 4.3.0"
     ]
@@ -9395,7 +9395,7 @@
           },
           "System": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[4.1.311.2, )"
           },
           "System.Text.Encodings.Web": {
             "target": "Package",

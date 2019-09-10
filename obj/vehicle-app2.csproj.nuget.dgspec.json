@@ -87,7 +87,7 @@
             },
             "System": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[4.1.311.2, )"
             },
             "System.Text.Encodings.Web": {
               "target": "Package",
@@ -96,6 +96,10 @@
             "System.Threading.Tasks": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "System.Web.Mvc": {
+              "target": "Package",
+              "version": "(, )"
             }
           },
           "imports": [

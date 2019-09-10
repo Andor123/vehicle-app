@@ -9275,7 +9275,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.6",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.6",
       "Microsoft.Extensions.Configuration >= 2.2.0",
-      "Microsoft.Extensions.Logging",
+      "Microsoft.Extensions.DependencyInjection",
+      "Microsoft.Extensions.Logging >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "System.Text.Encodings.Web >= 4.5.0",
       "System.Threading.Tasks >= 4.3.0"
@@ -9352,9 +9353,13 @@
             "target": "Package",
             "version": "[2.2.0, )"
           },
-          "Microsoft.Extensions.Logging": {
+          "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "(, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -81,6 +85,10 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "System.Collections.Generic": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "System.Text.Encodings.Web": {
               "target": "Package",
               "version": "[4.5.0, )"
@@ -88,10 +96,6 @@
             "System.Threading.Tasks": {
               "target": "Package",
               "version": "[4.3.0, )"
-            },
-            "System.Web.Mvc": {
-              "target": "Package",
-              "version": "(, )"
             }
           },
           "imports": [

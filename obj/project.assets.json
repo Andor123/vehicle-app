@@ -9268,11 +9268,14 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore >= 2.2.0",
+      "Microsoft.AspNetCore.Hosting >= 2.2.0",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
-      "Microsoft.AspNetCore.Mvc.RazorPages",
+      "Microsoft.AspNetCore.Mvc.RazorPages >= 2.2.5",
       "Microsoft.EntityFrameworkCore >= 2.2.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.6",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.6",
+      "Microsoft.Extensions.Configuration >= 2.2.0",
+      "Microsoft.Extensions.Logging",
       "Microsoft.NETCore.App >= 2.2.0",
       "System.Text.Encodings.Web >= 4.5.0",
       "System.Threading.Tasks >= 4.3.0"
@@ -9321,13 +9324,17 @@
             "target": "Package",
             "version": "[2.2.0, )"
           },
+          "Microsoft.AspNetCore.Hosting": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
             "version": "[2.2.0, )"
           },
           "Microsoft.AspNetCore.Mvc.RazorPages": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[2.2.5, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -9340,6 +9347,14 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[2.2.6, )"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "(, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

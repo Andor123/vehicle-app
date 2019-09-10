@@ -16,7 +16,7 @@ namespace RazorPagesContacts.Pages
             _db = db;
         }
 
-        public IList<Vehicle> Vehicles { get; private set; }
+        public IList<Vehicles> Vehicles { get; private set; }
 
         public async Task OnGetAsync() 
         {

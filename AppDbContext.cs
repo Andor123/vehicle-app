@@ -8,6 +8,8 @@ namespace RazorPagesContacts.Data
 
         public DbSet<Users> Users { get; set; }
 
+        public DbSet<Vehicles> Vehicles { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         {
             optionsBuilder.UseSqlite(@"Data Source=IdentitySample.sqlite;");

@@ -3,7 +3,7 @@ using System.Text.Encodings.Web;
 
 namespace MvcMovie.Controllers 
 {
-    public class VehicleController : Controllers 
+    public class VehicleController : Controller
     {
         //
         // GET: /Index/

@@ -6,6 +6,8 @@ namespace RazorPagesContacts.Data
     {
         public int Id { get; set; }
 
+        public int VehicleId { get; set; }
+
         [Required, StringLength(100)]
         public string Name { get; set; }
 

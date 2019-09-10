@@ -39,6 +39,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -59,7 +63,7 @@
             },
             "System.Text.Encodings.Web": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[4.5.0, )"
             }
           },
           "imports": [

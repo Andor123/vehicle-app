@@ -85,7 +85,7 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
-            "System.Collections.Generic": {
+            "System": {
               "target": "Package",
               "version": "(, )"
             },

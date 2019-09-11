@@ -97,7 +97,7 @@
               "target": "Package",
               "version": "[4.3.0, )"
             },
-            "System.Web.Mvc": {
+            "System.Web": {
               "target": "Package",
               "version": "(, )"
             }

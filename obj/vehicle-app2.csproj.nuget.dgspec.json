@@ -89,6 +89,10 @@
               "target": "Package",
               "version": "[4.1.311.2, )"
             },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "System.Text.Encodings.Web": {
               "target": "Package",
               "version": "[4.5.0, )"
@@ -96,10 +100,6 @@
             "System.Threading.Tasks": {
               "target": "Package",
               "version": "[4.3.0, )"
-            },
-            "System.Web": {
-              "target": "Package",
-              "version": "(, )"
             }
           },
           "imports": [
